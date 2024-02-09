@@ -1,0 +1,38 @@
+# Bağımlılıklar
+/node_modules
+
+# Üretim
+/build
+
+# Derleme dosyaları
+/.cache
+/dist
+
+# Yerel geliştirme
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# IDE ve editör dosyaları
+/.idea
+.DS_Store
+*.sublime-workspace
+
+# İşletim sistemi dosyaları
+Thumbs.db
+ehthumbs.db
+
+# Yarn
+yarn-error.log
+pnp.*
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# npm
+package-lock.json
+npm-debug.log*
+
+#
